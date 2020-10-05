@@ -60,9 +60,10 @@
         </tr>
       </tbody>
     </table>
+
     <h2>LIST</h2>
       <ul>
-        <li><img src="FrankTurner.png"></li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Frank_Turner_-_England_Keep_My_Bones_Cover.jpg/220px-Frank_Turner_-_England_Keep_My_Bones_Cover.jpg" width="100" height="100" alt="FTHC"></li>
         <a href="https://frank-turner.com/">Frank Turner</a>
           <ul>
             <li>Years Active: 2001-Present</li>
@@ -75,7 +76,7 @@
                 <li>Nigel Powell</li>
               </ol>
           </ul>
-        <li><img src="Bowling-for-Soup-2.png"></li>
+        <li><img src="http://images.amazon.com/images/P/B002LCOQAK.jpg" width="100" height="100" alt="BFS"></li>
         <a href="https://www.bowlingforsoup.com/">Bowling For Soup</a>
           <ul>
             <li>Years Active: 1994-Present</li>
@@ -87,7 +88,7 @@
                 <li>Rob Felicetti</li>
               </ol>
           </ul>
-        <li><img src="GreenDay.jpg"></li>
+        <li><img src="https://i.pinimg.com/originals/bf/9c/65/bf9c650f0443916a447e5999333e5a46.gif" width="100" height="100" alt="GD"></li>
         <a href="https://greenday.com/">GreenDay</a>
           <ul>
             <li>Years Active: 1987-Present</li>
@@ -100,16 +101,45 @@
           </ul>
       </ul>
 
-
-
-
-
-
-
-
-
-
-
-
+    <h2>FORM</h2>
+    <form action="collectData.html">
+      <label>First Name: </label>
+      <input type="text"/>
+      <label>Last Name: </label>
+      <input type="text"/>
+      <br>
+      <label>Favorite Music: </label>
+      <select name="musicTypes">
+        <option value=”metal”>Metal</option>
+        <option value=”country”>Country</option>
+        <option value=”classical”>Classical</option>
+        <option value=”rock”>Rock</option>
+        <option value=”punk”>Punk</option>
+      </select>
+      <br><label>Preferred music format: </label>
+        <input type="checkbox" name="radio" value="Radio">
+        <label>Radio</label>
+        <input type="checkbox" name="cd" value="CD">
+        <label>CD</label>
+        <input type="checkbox" name="download" value="Download">
+        <label>Download</label>
+        <input type="checkbox" name="streaming" value="Streaming">
+        <label>Streaming</label>
+        <input type="checkbox" name="live" value="Live">
+        <label>Live/Concerts</label>
+        <!--Radio Button-->
+        <br><label>Amount of Concerts I've been to:</label>
+        <input type="radio" name="number" value="0">
+        <label>0</label>
+        <input type="radio" name="number" value="1">
+        <label>1</label>
+        <input type="radio" name="number" value="2">
+        <label>2</label>
+        <input type="radio" name="number" value="3">
+        <label>3</label>
+        <input type="radio" name="number" value="4+">
+        <label>4+</label>
+        <br><input type="submit"/>
+    </form>
   </body>
 </html>
