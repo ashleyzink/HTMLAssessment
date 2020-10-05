@@ -1,6 +1,15 @@
 h2, h3, h4, h5 {
-  color: #9932CC;
+  color: fuchsia;
   font-family: sans-serif;
+}
+table, th, td {
+  border: solid darkMagenta;
+}
+th {
+  color: dodgerBlue;
+}
+tbody {
+  text-align: center;
 }
 
 ul {
