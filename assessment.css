@@ -24,7 +24,9 @@ blockquote {
 }
 #teamRoster>li:first-child{
   background-image: url(https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg);
-  background-repeat: no-repeat;
+  opacity: .6;
+  background-repeat: no-repeat
+
 }
 #teamRoster>li>img:first-child{
   visibility: hidden;
@@ -32,6 +34,7 @@ blockquote {
 #teamRoster>li:last-child{
   content: "";
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
+  opacity: .6;
   background-repeat: no-repeat;
 }
 #checkbox-grid {
@@ -39,4 +42,7 @@ blockquote {
 }
 #teamRoster>li>ul>li>ol>li:first-child {
   font-weight: bold;
+}
+tr:first-child{
+  background-color: maroon;
 }
