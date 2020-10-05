@@ -34,7 +34,9 @@ blockquote {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
   background-repeat: no-repeat;
 }
-
 #checkbox-grid {
   list-style-type: none;
+}
+#teamRoster>li>ul>li>ol>li:first-child {
+  font-weight: bold;
 }
